@@ -1,6 +1,5 @@
 import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
-import BannerImg from 'assets/banner-thumb.png';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
 
@@ -17,10 +16,6 @@ export default function Banner() {
             from China who hack together
           </Text>
           <Button variant="primary">Explore</Button>
-        </Box>
-
-        <Box sx={styles.banner.imageBox}>
-          <Image src={BannerImg} alt="banner" />
         </Box>
       </Container>
     </section>

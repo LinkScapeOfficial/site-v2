@@ -4,47 +4,8 @@ import SectionHeader from 'components/section-header';
 import PostCard from 'components/post-card.js';
 import ButtonGroup from 'components/button-group';
 import Carousel from 'react-multi-carousel';
-import PostThumb1 from 'assets/blog/1.jpg';
-import PostThumb2 from 'assets/blog/2.jpg';
-import PostThumb3 from 'assets/blog/3.jpg';
 
 const data = [
-  {
-    id: 1,
-    imgSrc: PostThumb1,
-    altText: 'Marketing',
-    postLink: '#',
-    title: 'Product Marketing: Monopoly Market',
-    authorName: 'Cali Cartel',
-    date: 'Oct 20, 2020',
-  },
-  {
-    id: 2,
-    imgSrc: PostThumb2,
-    altText: 'Creative',
-    postLink: '#',
-    title: 'Product Marketing: Creative Market',
-    authorName: 'James Carter',
-    date: 'Oct 20, 2020',
-  },
-  {
-    id: 3,
-    imgSrc: PostThumb3,
-    altText: 'Startup',
-    postLink: '#',
-    title: 'Product Marketing: Startup Product Sales',
-    authorName: 'Aston Aagar',
-    date: 'Oct 20, 2020',
-  },
-  {
-    id: 4,
-    imgSrc: PostThumb2,
-    altText: 'Creative',
-    postLink: '#',
-    title: 'Product Marketing: Creative Market',
-    authorName: 'James Carter',
-    date: 'Oct 20, 2020',
-  },
 ];
 
 const responsive = {
