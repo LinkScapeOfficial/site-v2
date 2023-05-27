@@ -1,5 +1,4 @@
 /** @jsximport 'theme-ui' */
-/** @jsximport 'theme-ui' */
 import React from 'react';
 import { ThemeProvider } from 'theme-ui';
 import { StickyProvider } from '../contexts/app/app.provider';
