@@ -32,11 +32,11 @@ export default function Header({ className }) {
           </Flex>
 
           <Button
-            className="donate__btn"
+            className="donate_button"
             variant="secondary"
-            aria-label="Get Started"
+            aria-label="Donate"
           >
-            Get Started
+            Donate
           </Button>
 
           <MobileDrawer />
@@ -68,7 +68,7 @@ const styles = {
     position: 'absolute',
     top: 0,
     left: 0,
-    backgroundColor: 'transparent',
+    backgroundColor: 'background',
     transition: 'all 0.4s ease',
     animation: `${positionAnim} 0.4s ease`,
     '.donate__btn': {
