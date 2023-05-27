@@ -1,5 +1,3 @@
-/** @jsximport 'theme-ui' */
-/** @jsximport 'theme-ui' */
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import React, { useState } from 'react';

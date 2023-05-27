@@ -1,5 +1,3 @@
-/** @jsximport 'theme-ui' */
-/** @jsximport 'theme-ui' */
 /** @jsx jsx */
 import { jsx, Container, Box } from 'theme-ui';
 import TextFeature from 'components/text-feature';
