@@ -1,3 +1,4 @@
+/** @jsximport 'theme-ui' */
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
