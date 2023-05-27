@@ -1,6 +1,6 @@
 
 import { jsx, Container, Flex, Button } from 'theme-ui';
-import { keyframes } from '@emotion/core';
+import { keyframes } from '@emotion/react';
 import { Link } from 'react-scroll';
 import Logo from 'components/logo';
 import LogoDark from 'assets/logo.svg';
