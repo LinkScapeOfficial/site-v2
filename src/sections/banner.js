@@ -14,8 +14,8 @@ export default function Banner() {
             Linkscape
           </Heading>
           <Text as="p" variant="heroSecondary">
-            We are student hackersstudent hackers
-            from China who code together
+            We are student
+            from China who hack together
           </Text>
           <Button variant="primary">Explore</Button>
         </Box>
