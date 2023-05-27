@@ -1,26 +1,28 @@
 import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
-import SectionHeader from 'components/section-header';
-import FeatureCard from 'components/feature-card.js';
-import Performance from 'assets/feature/performance.svg';
-import Partnership from 'assets/feature/partnership.svg';
-import Subscription from 'assets/feature/subscription.svg';
-import Support from 'assets/feature/support.svg';
+import SectionHeader from '../components/section-header';
+import FeatureCard from '../components/feature-card.js';
+import Performance from '../assets/feature/performance.svg';
+import Partnership from '../assets/feature/partnership.svg';
+import Subscription from '../assets/feature/subscription.svg';
+import Support from '../assets/feature/support.svg';
+import FaGithub from "../assets/feature/FaGithub.svg";
+import Educate from "../assets/feature/Educate.svg"
 
 const data = [
   {
     id: 1,
-    imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
+    imgSrc: FaGithub,
+    altText: 'GitHub',
+    title: 'Open Source',
     text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+      "We promote open source softwares, so we open-sourced all of our software/'s code on GitHub"
   },
   {
     id: 2,
-    imgSrc: Partnership,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    imgSrc: Educate,
+    altText: 'Educate',
+    title: 'Education',
     text:
       'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
   },

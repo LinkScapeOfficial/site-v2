@@ -1,7 +1,8 @@
 import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
-import ShapeLeft from 'assets/shape-left.png';
-import ShapeRight from 'assets/shape-right.png';
+import ShapeLeft from '../assets/shape-left.png';
+import ShapeRight from '../assets/shape-right.png';
+import { SiDiscord } from "react-icons/si";
 
 export default function Banner() {
   return (
@@ -9,13 +10,16 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Linkscape
+            Welcome to <br /> LinkScape
           </Heading>
           <Text as="p" variant="heroSecondary">
-            We are student
-            from China who hack together
+            We are student hackers
+            from China who code together
           </Text>
-          <Button variant="primary">Explore</Button>
+          <Button>
+            <SiDiscord size={24}/>
+            Discord
+          </Button>
         </Box>
       </Container>
     </section>
@@ -24,6 +28,7 @@ export default function Banner() {
 
 const styles = {
   banner: {
+    "SiDiscord": "24",
     pt: ['140px', '145px', '155px', '170px', null, null, '180px', '215px'],
     pb: [2, null, 0, null, 2, 0, null, 5],
     position: 'relative',

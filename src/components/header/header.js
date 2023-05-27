@@ -2,8 +2,8 @@
 import { jsx, Container, Flex, Button } from 'theme-ui';
 import { keyframes } from '@emotion/react';
 import { Link } from 'react-scroll';
-import Logo from 'components/logo';
-import LogoDark from 'assets/logo.svg';
+import Logo from '../logo';
+import LogoDark from '../../assets/logo.svg';
 import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
@@ -35,6 +35,7 @@ export default function Header({ className }) {
             className="donate_button"
             variant="secondary"
             aria-label="Donate"
+            href="donate"
           >
             Donate
           </Button>

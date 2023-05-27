@@ -1,8 +1,8 @@
 import { jsx, Container, Box } from 'theme-ui';
-import TextFeature from 'components/text-feature';
-import Image from 'components/image';
+import TextFeature from '../components/text-feature';
+import Image from '../components/image';
 
-import shapePattern from 'assets/shape-pattern2.png';
+import shapePattern from '../assets/shape-pattern2.png';
 
 const data = {
   subTitle: 'Core features',
