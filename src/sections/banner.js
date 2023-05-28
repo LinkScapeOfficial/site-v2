@@ -16,9 +16,22 @@ export default function Banner() {
             We are student hackers
             from China who code together
           </Text>
-          <Button>
-            <SiDiscord size={24}/>
-            Discord
+          <Button
+          >
+            <SiDiscord size={28} sx={{
+              mt:2,
+              mb: -1
+            }}/>
+            <span
+            sx={{
+              mb: 2,
+              ml:2,
+              display: 'inline-block',
+              verticalAlign: 'middle',
+              fontSize: '24px', 
+            }}>
+              Discord
+            </span>
           </Button>
         </Box>
       </Container>
